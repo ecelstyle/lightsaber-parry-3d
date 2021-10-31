@@ -1,6 +1,20 @@
 # lightsaber-parry-3d
 Hyper Casual Game Prototype Test
 
+Demo
+
+![Class Diagram](https://github.com/ecelstyle/lightsaber-parry-3d/blob/main/demo.gif)
+
+Scene Hierarchy
+
+![Class Diagram](https://github.com/ecelstyle/lightsaber-parry-3d/blob/main/scene.png)
+
+
+Class Diagram
+![Class Diagram](https://github.com/ecelstyle/lightsaber-parry-3d/blob/main/ClassDiagram1.png)
+
+
+
 ## UIManager
 This class use to get user input and trigger events
 
@@ -57,27 +71,6 @@ Tags need to be added, and need to set Rigidbody Objects and Collision Objects
 Need a parent object for pivoting.
   * One child object is rigidbody with Saber Class and Tags Setted (Player or Opponent)
   * Other child object is visual presentation of lightsaber, this object need to referenced to Saber Object (physics object)
-
-
-
-Demo
-
-![Class Diagram](https://github.com/ecelstyle/lightsaber-parry-3d/blob/main/demo.gif)
-
-Scene Hierarchy
-
-![Class Diagram](https://github.com/ecelstyle/lightsaber-parry-3d/blob/main/scene.png)
-
-
-Class Diagram
-![Class Diagram](https://github.com/ecelstyle/lightsaber-parry-3d/blob/main/ClassDiagram1.png)
-
-
-
-
-
-
-
 
 
 
